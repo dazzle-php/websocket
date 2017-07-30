@@ -1,0 +1,41 @@
+{
+    "name": "dazzle-php/websocket",
+    "description": "Dazzle Asynchronous Websocket Client / Server.",
+    "keywords": [
+        "dazzle", "dazzle-php", "async", "non-blocking", "websocket", "socket", "server", "socket-server", "client", "socket-client"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/dazzle-php/websocket/issues",
+        "source": "https://github.com/dazzle-php/websocket"
+    },
+    "authors": [
+        {
+            "name":     "Kamil Jamroz",
+            "homepage": "https://github.com/khelle"
+        },
+        {
+            "name":     "The contributors",
+            "homepage": "http://github.com/dazzle-php/websocket/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8.0 <5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Websocket\\": "src/Websocket",
+            "Dazzle\\Websocket\\Test\\": "test"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.5-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
